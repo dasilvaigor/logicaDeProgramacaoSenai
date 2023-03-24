@@ -1,7 +1,7 @@
 Algoritmo "calculoMedia"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Calculo de media de um aluno
+// Disciplina  : LÃ³gica de ProgramaÃ§Ã£o
+// Professor   : Carlos Anderson  
+// DescriÃ§Ã£o   : Calculo de media de um aluno
 // Autor(a)    : Igor Santos da Silva
 // Data atual  : 23/03/2023
 Var
@@ -21,13 +21,13 @@ Inicio
       escreval("__________________________")
       escreval("        N O T A S")
       escreval("")
-      escreva("1º Bimestre: ")
+      escreva("1Âº Bimestre: ")
       leia(nota1)
-      escreva("2º Bimestre: ")
+      escreva("2Âº Bimestre: ")
       leia(nota2)
-      escreva("3º Bimestre: ")
+      escreva("3Âº Bimestre: ")
       leia(nota3)
-      escreva("4º Bimestre: ")
+      escreva("4Âº Bimestre: ")
       leia(nota4)
       
       //Processamento dos dados
@@ -35,7 +35,7 @@ Inicio
       
       limpatela
       
-      //Exibição dos dados
+      //ExibiÃ§Ã£o dos dados
       escreval("---------------------------")
       escreval("      B O L E T I M     ")
       escreval("---------------------------")
@@ -44,10 +44,10 @@ Inicio
       escreval("__________________________")
       escreval("        N O T A S")
       escreval("")
-      escreval("1º Bimestre:  ", nota1)
-      escreval("2º Bimestre:  ", nota2)
-      escreval("3º Bimestre:  ", nota3)
-      escreval("4º Bimestre:  ", nota4)
+      escreval("1Âº Bimestre:  ", nota1)
+      escreval("2Âº Bimestre:  ", nota2)
+      escreval("3Âº Bimestre:  ", nota3)
+      escreval("4Âº Bimestre:  ", nota4)
       escreval("__________________________")
-      escreva ("      Média:   ", media:2:1)
+      escreva ("      MÃ©dia:   ", media:2:1)
 Fimalgoritmo
