@@ -1,7 +1,7 @@
 Algoritmo "calucularAreaTriangulo"
-// Disciplina   : [Linguagem e LÛgica de ProgramaÁ„o]
-// Professor   : Antonio Carlos Nicolodi 
-// DescriÁ„o   : Calculo de ¡rea de um Triangulo
+// Disciplina  : L√≥gica de Programa√ß√£o
+// Professor   : Carlos Anderson  
+// Descri√ß√£o   : Calculo de √Årea de um Triangulo
 // Autor(a)    : Igor Santos da Silva
 // Data atual  : 23/03/2023
 Var
@@ -9,7 +9,7 @@ Var
 Inicio
       escreval("===================================")
       escreval("=                                 =")
-      escreval("= Calculo de ¡rea de um Triangulo =")
+      escreval("= Calculo de √Årea de um Triangulo =")
       escreval("=                                 =")
       escreval("===================================")
       escreval("")
@@ -28,7 +28,7 @@ Inicio
       //processamento dos dados
       area <- (base*altura)/2
 
-      //exibiÁ„ dos dados
+      //exibi√ß√£ dos dados
       escreval("Base:", base, " cm")
       escreval("Altura:", altura," cm")
       escreva("Area: ", area:2:1, " cm")
