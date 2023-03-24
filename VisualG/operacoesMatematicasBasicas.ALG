@@ -1,16 +1,16 @@
 Algoritmo "operacoesMatematicasBasicas"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Mostrar a Soma, Subtração, Divisão e Multiplicação de dois números.
+// Disciplina  : LÃ³gica de ProgramaÃ§Ã£o
+// Professor   : Carlos Anderson 
+// DescriÃ§Ã£o   : Mostrar a Soma, SubtraÃ§Ã£o, DivisÃ£o e MultiplicaÃ§Ã£o de dois nÃºmeros.
 // Autor(a)    : Igor Santos da Silva
 // Data atual  : 23/03/2023
 Var
    num1, num2, soma, sub, divi, mult: Real
 Inicio
       //recebimento de dados
-      escreva("Informe o 1º número: ")
+      escreva("Informe o 1Âº nÃºmero: ")
       leia(n1)
-      escreva("Informe o 2º número: ")
+      escreva("Informe o 2Âº nÃºmero: ")
       leia(n2)
       //processamento dos dados recebidos
       soma <- num1+num2
@@ -20,13 +20,13 @@ Inicio
 
       limpatela
       
-      //exibição dos dados
-      escreval("Números digitados:", num1," e", num2)
+      //exibiÃ§Ã£o dos dados
+      escreval("NÃºmeros digitados:", num1," e", num2)
       escreval("")
       escreval("===============================")
       escreval("Soma          =", soma)
-      escreval("Subtração     =", sub)
-      escreval("Divisão       = ", divi:2:1)
-      escreval("Multiplicação =", mult)
+      escreval("SubtraÃ§Ã£o     =", sub)
+      escreval("DivisÃ£o       = ", divi:2:1)
+      escreval("MultiplicaÃ§Ã£o =", mult)
       
 Fimalgoritmo
