@@ -7,11 +7,11 @@ Algoritmo "testeLogin"
 Var
    usuarioCadastrado, senhaCadastrado, usuario, senha: caractere
 Inicio
-      // definição de valores das variaveis
+      // usuário já cadastrasdo.
       usuarioCadastrado <- "igorsilva"
       senhaCadastrado <- "123456"
 
-      // recebimento dos dados digitados pelo usuário
+      // recebimento dos dados para tentativa de acesso
       escreva("Informe o usuário: ")
       leia(usuario)
       escreva("Informe a senha: ")
@@ -19,7 +19,7 @@ Inicio
       
       limpatela
       
-      // verficação das condições e exibição dos dados na tela
+      // verficação das condições e exibição de dados na tela
       se (usuario = usuarioCadastrado) e (senha = senhaCadastrado) entao
          escreval("Bem vindo Igor!")
       senao
