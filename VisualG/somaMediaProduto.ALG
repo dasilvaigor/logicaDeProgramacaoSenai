@@ -9,15 +9,18 @@ Var
    numero1, numero2, soma, produto, maiorNumero, menorNumero: Inteiro
    media: Real
 Inicio
+      // entrada de dados.
       escreva("Informe o 1º número: ")
       leia(numero1)
       escreva("Informe o 2º número: ")
       leia(numero2)
       
+      // processamento dos daos recebidos
       soma <- numero1 + numero2
       produto <- numero1 * numero2
       media <- (numero1 + numero2) / 2
       
+      // verificação das condições para armazenamento nas variaveis
       se numero1 < numero2 entao
          maiorNumero <- numero2
          menorNumero <- numero1
@@ -28,6 +31,7 @@ Inicio
       
       limpatela
       
+      // exibição das informações
       escreval("Primeiro número:", numero1)
       escreval("Segundo número :", numero2)
       escreval("")
