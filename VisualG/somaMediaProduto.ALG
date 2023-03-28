@@ -31,13 +31,17 @@ Inicio
       
       limpatela
       
-      // exibição das informações
+      // exibição das informações e verificação de outra condição
       escreval("Primeiro número:", numero1)
       escreval("Segundo número :", numero2)
       escreval("")
       escreval("Soma        :", soma)
       escreval("Produto     :", produto)
       escreval("Média       :", media:2:1)
-      escreval("Maior número:", maiorNumero)
-      escreval("Menor número:", menorNumero)
+      se (maiorNumero = menorNumero) entao
+         escreval("Os números digitados são iguais!")
+      senao
+         escreval("Maior número:", maiorNumero)
+         escreval("Menor número:", menorNumero)
+      fimse
 Fimalgoritmo
