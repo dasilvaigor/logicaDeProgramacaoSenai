@@ -7,14 +7,22 @@ Algoritmo "vendaDeMacas"
 Var
    quantidadeProduto: Inteiro
 Inicio
+      //recebimento de dados pelo usuário
       escreva("Quantas maçãs você deseja comprar: ")
       leia(quantidadeProduto)
 
-      se (quantidadeProduto<=6) e (quantidadeProduto>0) entao
-         escreval("Valor a ser pago R$", quantidadeProduto*1.3:2:2)
+      limpatela
+      
+      //verificação das condições, calculo do valor e exibição das informações
+      se (quantidadeProduto<12) e (quantidadeProduto>0) entao
+         escreval("Quantidade:", quantidadeProduto)
+         escreval("Valor por produto: R$1.30")
+         escreval("Valor a ser pago: R$", quantidadeProduto*1.3:2:2)
       senao
-           se (quantidadeProduto>6) entao
-              escreval("Valor a ser pago R$", quantidadeProduto*1:2:2)
+           se (quantidadeProduto>=12) entao
+              escreval("Quantidade:", quantidadeProduto)
+              escreval("Valor por produto: R$1.00")
+              escreval("Total a ser pago: R$", quantidadeProduto*1:2:2)
            senao
               escreval("Quantidade inválida!")
            fimse
