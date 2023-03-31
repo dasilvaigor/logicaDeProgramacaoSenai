@@ -9,19 +9,22 @@ Var
    numero1, numero2, soma, subtracao: Inteiro
    multiplicacao, divisao: Real
 Inicio
+      //recebe os dados do usuário.
       escreva("Informe o valor de A: ")
       leia(numero1)
       escreva("Informe o valor de B: ")
       leia(numero2)
       escreva("Selecione a operação [+][-][*][/]: ")
       leia(operacao)
-      
+
       limpatela
-      
+
+      //exibição dos dados digitados.
       escreval("Valor A: ", numero1)
       escreval("Valor B: ", numero2)
       escreval("")
-      
+
+      //processamento dos dados e exibição das informações.
       se (operacao = "+") entao
          soma <- numero1 + numero2
          escreval("Soma:", soma)
