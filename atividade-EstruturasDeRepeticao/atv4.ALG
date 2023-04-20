@@ -28,17 +28,21 @@ Inicio
                   se (idade_participante < menor_idade) entao
                      menor_idade <- idade_participante
                   fimse
-                  escreva("Sexo [M/F]: ")
-                  leia(sexo_participante)
 
-                  //padronização da resposta para variavél sexo_participante
-                  se (sexo_participante = "m") entao
-                     sexo_participante <- "M"
-                  senao
-                       se (sexo_participante = "f") entao
-                          sexo_participante <- "F"
-                       fimse
-                  fimse
+                  repita
+                        escreva("Sexo [M/F]: ")
+                        leia(sexo_participante)
+                        //padronização da resposta para variavél sexo_participante
+                        se (sexo_participante = "m") entao
+                           sexo_participante <- "M"
+                        senao
+                             se (sexo_participante = "f") entao
+                                sexo_participante <- "F"
+                             fimse
+                        fimse
+                  ate (sexo_participante = "M") ou (sexo_participante = "F")
+
+
                   escreva("Salário: R$")
                   leia(salario_participante)
       

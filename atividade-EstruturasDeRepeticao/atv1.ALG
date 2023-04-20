@@ -24,25 +24,25 @@ Inicio
                se (salario > 0) entao
                   escreva ("Quantidade de filhos: ")
                   leia(qtde_filhos)
+                  
+                  //armazenamento do maior salário.
+                  se salario > maior_salario entao
+                     maior_salario <- salario
+                  fimse
+
+                  //armazenamento do meno salário.
+                  se salario < menor_salario entao
+                     menor_salario <- salario
+                  fimse
+                  
+                  //contabilização da quantidade de participantes
+                  //e do tatal de salário e filhos.
+                  contador <- contador + 1
+                  salario_total <- salario_total + salario
+                  total_filhos <- total_filhos + qtde_filhos
                fimse
 
                limpatela
-               
-               //contabilização da quantidade de participantes
-               //e do tatal de salário e filhos.
-               contador <- contador + 1
-               salario_total <- salario_total + salario
-               total_filhos <- total_filhos + qtde_filhos
-               
-               //armazenamento do maior salário.
-               se salario > maior_salario entao
-                  maior_salario <- salario
-               fimse
-               
-               //armazenamento do meno salário.
-               se salario < menor_salario entao
-                  menor_salario <- salario
-               fimse
 
       fimenquanto
       
