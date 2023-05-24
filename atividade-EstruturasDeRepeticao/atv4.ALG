@@ -1,7 +1,12 @@
 Algoritmo "atv4"
-// Disciplina  : LÛgica de ProgramaÁ„o
+// Disciplina  : L√≥gica de Programa√ß√£o
 // Professor   : Carlos Anderson
-// DescriÁ„o   : Pesquisa com habitantes.
+// Descri√ß√£o   : Fa√ßa um algoritmo que leia uma quantidade n√£o determinada 
+//               de n√∫meros positivos. Calcule: 
+//               a) quantidade de n√∫meros pares e √≠mpares;
+//               b) m√©dia de valores pares;
+//               c) m√©dia geral dos n√∫meros lidos.
+//               O n√∫mero que encerrar√° a leitura ser√° zero.
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 19/04/2023
 Var
@@ -15,16 +20,16 @@ Inicio
       maior_idade <- 0
 
       enquanto idade_participante >= 0 faca
-               //solicitaÁ„o dos dados ao usu·rio
+               //solicita√ß√£o dos dados ao usu√°rio
                escreva("Idade do participante: ")
                leia(idade_participante)
 
                se (idade_participante > 0) entao
-                  //verificaÁ„o da maior idade
+                  //verifica√ß√£o da maior idade
                   se (idade_participante > maior_idade) entao
                      maior_idade <- idade_participante
                   fimse
-                  //verificaÁ„o da menor idade
+                  //verifica√ß√£o da menor idade
                   se (idade_participante < menor_idade) entao
                      menor_idade <- idade_participante
                   fimse
@@ -32,7 +37,7 @@ Inicio
                   repita
                         escreva("Sexo [M/F]: ")
                         leia(sexo_participante)
-                        //padronizaÁ„o da resposta para variavÈl sexo_participante
+                        //padroniza√ß√£o da resposta para variav√©l sexo_participante
                         se (sexo_participante = "m") entao
                            sexo_participante <- "M"
                         senao
@@ -43,10 +48,10 @@ Inicio
                   ate (sexo_participante = "M") ou (sexo_participante = "F")
 
 
-                  escreva("Sal·rio: R$")
+                  escreva("Sal√°rio: R$")
                   leia(salario_participante)
       
-                  //verificando quantas mulheres recebem sal·rio de atÈ mil reais.
+                  //verificando quantas mulheres recebem sal√°rio de at√© mil reais.
                   se (sexo_participante = "F") e (salario_participante <= 1000) entao
                      sal_ate_mil <- sal_ate_mil + 1
                   fimse
@@ -58,14 +63,14 @@ Inicio
       
       fimenquanto
       
-      //verificaÁ„o do total e da media e de salario informados
+      //verifica√ß√£o do total e da media e de salario informados
       salario_total <- salario_total + salario_participante
       media_salarial <- salario_total + qtde_participantes
       
-      //exibiÁ„o das informaÁıes
-      escreval("MÈdia sal·rio: R$", media_salarial)
+      //exibi√ß√£o das informa√ß√µes
+      escreval("M√©dia sal√°rio: R$", media_salarial)
       escreval("Maior idade:", maior_idade)
       escreval("Menor idade:", menor_idade)
-      escreval("Mulheres que recebem sal·rio de atÈ R$1000:", sal_ate_mil)
+      escreval("Mulheres que recebem sal√°rio de at√© R$1000:", sal_ate_mil)
       
 Fimalgoritmo
