@@ -1,27 +1,28 @@
 Algoritmo "atv5"
-// Disciplina  : Lógica de Programação
+// Disciplina  : LÃ³gica de ProgramaÃ§Ã£o
 // Professor   : Carlos Anderson
-// Descrição   : Números primos.
-// Autor(a)    :Igor Santos da Silva
+// DescriÃ§Ã£o   : FaÃ§a um programa que leia um nÃºmero informado pelo
+//               usuÃ¡rio e mostre na tela os nÃºmeros primos.
+// Autor(a)    : Igor Santos da Silva
 // Data atual  : 19/04/2023
 Var
    numero_digitado, i, contador, numeros_primos: Inteiro
 Inicio
       //solicitando dados
-      escreva("Informe um número: ")
+      escreva("Informe um nÃºmero: ")
       leia(numero_digitado)
       
-      //iniciando a verificação dos números
+      //iniciando a verificaÃ§Ã£o dos nÃºmeros
       para i de 1 ate numero_digitado faca
            numeros_primos <- 0
            para contador de 1 ate i faca
-                //verificação da divisão do número
+                //verificaÃ§Ã£o da divisÃ£o do nÃºmero
                 se (i mod contador = 0) entao
                    numeros_primos <- numeros_primos + 1
                 fimse
            fimpara
            
-           //exibição na tela
+           //exibiÃ§Ã£o na tela
            se (numeros_primos = 2) entao
               escreva(contador)
            fimse
