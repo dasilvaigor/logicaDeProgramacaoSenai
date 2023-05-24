@@ -1,12 +1,13 @@
 Algoritmo "atv4"
 // Disciplina  : Lógica de Programação
 // Professor   : Carlos Anderson
-// Descrição   : Faça um algoritmo que leia uma quantidade não determinada 
-//               de números positivos. Calcule: 
-//               a) quantidade de números pares e ímpares;
-//               b) média de valores pares;
-//               c) média geral dos números lidos.
-//               O número que encerrará a leitura será zero.
+// Descrição   : Foi feita uma pesquisa entre os habitantes de uma região.
+//               Foram coletados os dadosde idade, sexo (M/F) e salário. 
+//               Faça umalgoritmo que informe: 
+//               a) a média de salário do grupo;
+//               b) maior e menor idade do grupo;
+//               c) quantidade de mulheres com salário até R$ 1.000,00.
+//               Encerre a entrada de dados quando for digitada uma idade negativa
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 19/04/2023
 Var
