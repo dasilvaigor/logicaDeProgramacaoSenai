@@ -1,8 +1,10 @@
 Algoritmo "atv2"
-// Disciplina  : Lógica de Programação
+// Disciplina  : LÃ³gica de ProgramaÃ§Ã£o
 // Professor   : Carlos Anderson
-// Descrição   : Receber valores inteiros e calcular a media
-// Autor(a)    :Igor Santos da Silva
+// DescriÃ§Ã£o   : Construa um algoritmo que calcule a mÃ©dia aritmÃ©tica de 
+//               vÃ¡rios valores inteiros positivos, lidos externamente. 
+//               O final da leitura acontecerÃ¡ quando for lido um valor negativo.
+// Autor(a)    : Igor Santos da Silva
 // Data atual  : 19/04/2023
 Var
    valor_digitado, valor_total, contador: Inteiro
@@ -14,7 +16,7 @@ Inicio
 
       //solicitando os dados
       enquanto valor_digitado >= 0 faca
-               escreva ("Informe o", contador+1,"º valor: ")
+               escreva ("Informe o", contador+1,"Âº valor: ")
                leia (valor_digitado)
 
                se (valor_digitado >= 0) entao
@@ -28,6 +30,6 @@ Inicio
       //processamento dos dados
       media_valores <- valor_total / contador
 
-      //exibição das informações
+      //exibiÃ§Ã£o das informaÃ§Ãµes
       escreval("Media dos valores digitador:",media_valores)
 Fimalgoritmo
