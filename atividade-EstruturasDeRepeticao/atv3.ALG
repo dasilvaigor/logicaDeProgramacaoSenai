@@ -1,9 +1,12 @@
 Algoritmo "atv3"
-// Disciplina  : LÛgica de ProgramaÁ„o
+// Disciplina  : L√≥gica de Programa√ß√£o
 // Professor   : Carlos Anderson
-// DescriÁ„o   : Ler n˙meros positivos e verificar a quantidade de n˙meros
-//               pares e Ìmpares, mÈdia de valores pares, mÈdia geral
-//               e encerrar ao ser digitado o n˙mero 0.
+// Descri√ß√£o   : Fa√ßa um algoritmo que leia uma quantidade n√£o determinada 
+//               de n√∫meros positivos. Calcule: 
+//               a) quantidade de n√∫meros pares e √≠mpares;
+//               b) m√©dia de valores pares;
+//               c) m√©dia geral dos n√∫meros lidos.
+//               O n√∫mero que encerrar√° a leitura ser√° zero.
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 19/04/2023
 Var
@@ -12,17 +15,17 @@ Var
    mediaValoresPar, mediaTotal: Real
 Inicio
       repita
-            //solicitaÁ„o dos dados ao usu·rio
-            escreva("Digite um n˙mero:")
+            //solicita√ß√£o dos dados ao usu√°rio
+            escreva("Digite um n√∫mero:")
             leia(valor_digitado)
             
-            //verificaÁ„o se È PAR
+            //verifica√ß√£o se √© PAR
             se (valor_digitado % 2 = 0) e (valor_digitado <> 0) entao
                valores_Par <- valores_Par + 1
                soma_Pares <- soma_Pares + valor_digitado
                contadorPar <- contadorPar + 1
             senao
-                 //verificaÁ„o se È IMPAR
+                 //verifica√ß√£o se √© IMPAR
                  se (valor_digitado % 2 <> 0) e (valor_digitado <> 0) entao
                    valores_Impar <- valores_Impar + 1
                    contadorImpar <- contadorImpar + 1
@@ -41,7 +44,7 @@ Inicio
       mediaValoresPar <- soma_Pares / contadorPar
       mediaTotal <- totalDeValores / contador
       
-      //exibiÁ„o das informaÁıes
+      //exibi√ß√£o das informa√ß√µes
       escreval (valores_Par)
       escreval (valores_Impar)
       escreval (mediaValoresPar)
